@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Two Neighborhoods, Two Communications Strategies — 3-min cut</title>
+  <title>Clear City — Two Neighborhoods, Two Communications Strategies</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
@@ -97,6 +97,19 @@
       color: var(--gray);
       letter-spacing: 0.08em;
     }
+
+    .values-bar {
+      position: absolute;
+      bottom: 0.6em;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.42em;
+      color: var(--gray);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .values-bar span { margin: 0 0.6em; }
   </style>
 </head>
 <body>
@@ -105,89 +118,102 @@
 
       <!-- 1. Title + setup combined (~25s) -->
       <section class="title-slide">
-        <div class="kicker">Communications Director · 3-minute pitch</div>
+        <div class="kicker">Clear City · Communications Director · 3-minute pitch</div>
         <h1>Two Neighborhoods,<br><span class="dunes">Two</span> <span class="palm">Communications Strategies</span></h1>
         <p class="muted" style="text-align:center; margin-top:0.8em; font-size:0.7em;">
           <span class="dunes">The Dunes</span> · 1,200 residents &nbsp;&nbsp;|&nbsp;&nbsp;
           <span class="palm">Palm Haven</span> · 800 residents
         </p>
         <p class="muted" style="text-align:center; margin-top:0.6em; font-size:0.65em;">
-          Same county. Same services. Profoundly different starting points.
+          Same city. Same services. Profoundly different starting points.
         </p>
+        <div class="values-bar">
+          <span>Equity-first</span>·<span>Data-informed</span>·<span>Accessible by design</span>
+        </div>
         <aside class="notes">
           [00:00–00:25]
-          Hi, I'm [your name]. In three minutes I'll show you why these two neighborhoods need
-          two completely different communications strategies — and what I'd do about it.
+          Hi, I'm [your name]. In three minutes I'll show you how I'd lead Clear City's
+          public-facing communications by translating data into a story — and turning that
+          story into an equity-first strategy for two very different neighborhoods.
         </aside>
       </section>
 
       <!-- 2. Slope chart - the whole story in one image (~75s) -->
       <section>
         <div class="timer-badge">~ 0:25 – 1:40</div>
-        <div class="kicker">The data</div>
+        <div class="kicker">Data-informed storytelling</div>
         <h2>Five gaps. One picture.</h2>
-        <img src="../charts/alternatives/C_slope_chart.png" alt="Slope chart of all five metrics">
+        <img src="../charts/alternatives/C_slope_chart.png"
+             alt="Slope chart comparing The Dunes and Palm Haven across elevated BMI, income, age, and language. The Dunes shows higher rates of elevated BMI, lower income, more children, and more Spanish-primary speakers; Palm Haven shows higher incomes.">
         <p class="takeaway">
           Health, income, age, language — every dimension diverges.
           A <span class="accent">36-point gap</span> in elevated BMI is the headline.
         </p>
+        <div class="values-bar">
+          <span>Slope chart over pie</span>·<span>Honest axes</span>·<span>WCAG-AA contrast</span>
+        </div>
         <aside class="notes">
           [00:25–01:40]
-          Five metrics, both neighborhoods, one image. Steeper line means a bigger gap.
+          Five metrics, both neighborhoods, one image. Steeper line means a bigger gap. [pause]
 
-          The headline: 59% of Dunes residents have elevated BMI versus 23% in Palm Haven.
-          A 36-point gap. [pause]
+          The headline: fifty-nine percent of Dunes residents have elevated BMI versus twenty-three percent
+          in Palm Haven. A thirty-six-point gap. [long pause]
 
-          And it doesn't stop there. Sixty-nine percent of Dunes residents earn under $25K;
-          forty-five percent of Palm Haven earns over $40K. Income at opposite ends.
+          Sixty-nine percent of Dunes residents earn under $25K; forty-five percent of Palm Haven
+          earns over $40K. Income at opposite ends.
 
           The Dunes also skews younger and is two-and-a-half times more likely to use Spanish
-          as the primary language at home.
+          at home.
 
-          Same county, same services on offer. Profoundly different starting points.
+          A note on the chart itself — slope over pie, honest axes, WCAG-AA color contrast,
+          alt text for screen readers. Ethical viz isn't a finishing touch; it's the brief.
         </aside>
       </section>
 
       <!-- 3. Two playbooks - the strategic answer (~70s) -->
       <section>
         <div class="timer-badge">~ 1:40 – 2:50</div>
-        <div class="kicker">My approach</div>
+        <div class="kicker">Equity in practice</div>
         <h2>Two neighborhoods, two playbooks</h2>
         <div class="two-col">
           <div class="col-card dunes-card">
             <h3>The Dunes</h3>
-            <ul style="font-size:0.78em;">
-              <li><strong>Bilingual by default</strong> — Spanish-first, not translated</li>
-              <li><strong>Lead with health</strong> — clinics, food, kids</li>
-              <li><strong>Trusted messengers</strong> — schools, faith, promotoras</li>
-              <li><strong>Print, SMS, in-person</strong> — meet people where they are</li>
+            <ul style="font-size:0.74em;">
+              <li><strong>Spanish-first content</strong> — not translated, written; plain language, 6th-grade reading level</li>
+              <li><strong>Lead with health</strong> — clinics, food access, family programs</li>
+              <li><strong>Trusted messengers</strong> — schools, faith leaders, <em>promotoras</em></li>
+              <li><strong>Print + SMS + in-person</strong> — meet people on the channels they actually use</li>
             </ul>
           </div>
           <div class="col-card palm-card">
             <h3>Palm Haven</h3>
-            <ul style="font-size:0.78em;">
-              <li><strong>Email + digital</strong> — higher data and device access</li>
-              <li><strong>Lead with civic engagement</strong> — volunteering, advocacy</li>
-              <li><strong>Self-serve resources</strong> — links, portals, on-demand</li>
-              <li><strong>Monthly newsletter</strong> — opt-in, longer form</li>
+            <ul style="font-size:0.74em;">
+              <li><strong>WCAG-AA digital</strong> — screen-reader friendly, captioned, keyboard-accessible</li>
+              <li><strong>Lead with civic engagement</strong> — volunteering, advocacy, town halls</li>
+              <li><strong>Self-serve resources</strong> — portals, on-demand video, longer-form briefs</li>
+              <li><strong>Monthly newsletter</strong> — opt-in, data-rich, transparent</li>
             </ul>
           </div>
         </div>
-        <p class="takeaway" style="margin-top:0.8em;">
-          By day 90: <strong>no resident gets the wrong message in the wrong language on the wrong channel.</strong>
+        <p class="takeaway" style="margin-top:0.6em;">
+          By day 90 — <strong>every Clear City resident reached on the right channel, in the right language, at the right reading level.</strong>
         </p>
         <aside class="notes">
           [01:40–02:50]
-          So what does this mean for me as your Communications Director? Two playbooks, not one.
+          So what does this mean for Clear City? Two playbooks, not one. [pause]
 
-          The Dunes — bilingual by default. Spanish-first content, not translated as an afterthought.
-          Health is the through-line. Trusted messengers — schools, faith leaders, promotoras de salud — do the heavy lifting. Print, SMS, and in-person, not email-first.
+          The Dunes — Spanish-first content, written natively, not translated as an afterthought.
+          Plain language at a sixth-grade reading level — not because residents can't read more,
+          but because civic information should never be a comprehension test.
+          Health is the through-line. Trusted messengers — schools, faith leaders, promotoras de salud —
+          carry the message. Print, SMS, and in-person, not email-first.
 
-          Palm Haven — email and digital are fine. Lead with civic engagement, advocacy, volunteering.
-          Self-serve resources work. Monthly newsletter, longer form, opt-in.
+          Palm Haven — WCAG-AA digital across the board. Captions, alt text, keyboard navigation by default.
+          Lead with civic engagement. Self-serve, transparent, data-rich.
 
-          The first ninety days I audit, build the bilingual workflow, and re-mix the channels.
-          Goal: by day ninety, no resident gets the wrong message in the wrong language on the wrong channel.
+          First ninety days I audit, build the bilingual and accessibility workflow, and re-mix the channels.
+          Goal: every Clear City resident reached on the right channel, in the right language,
+          at the right reading level.
         </aside>
       </section>
 
@@ -196,7 +222,12 @@
         <div class="kicker">Thank you</div>
         <h1>Questions?</h1>
         <p class="muted" style="text-align:center; margin-top:0.8em; font-size:0.7em;">
-          Two neighborhoods. Two playbooks. One Communications Director ready to build them.
+          <span class="dunes">Equity-first.</span>
+          <span class="palm">Data-informed.</span>
+          <span class="accent">Accessible by design.</span>
+        </p>
+        <p class="muted" style="text-align:center; margin-top:0.4em; font-size:0.6em;">
+          Ready to lead Clear City's communications.
         </p>
         <aside class="notes">
           [02:50–03:00]
