@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Clear City — Communications Director Final Presentation</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+
+  <style>
+    :root {
+      --dunes: #8B6F47;
+      --palm:  #2C7A7B;
+      --accent: #A8431E;
+      --gray-dark: #595959;
+      --gray: #A6A6A6;
+      --text: #262626;
+    }
+    .reveal {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      color: var(--text);
+    }
+    .reveal h1, .reveal h2, .reveal h3 {
+      text-transform: none;
+      letter-spacing: -0.01em;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .reveal h1 { font-size: 2.0em; line-height: 1.15; }
+    .reveal h2 { font-size: 1.4em; line-height: 1.2; }
+    .reveal h3 { font-size: 1.05em; color: var(--gray-dark); font-weight: 500; }
+    .reveal .slides { text-align: left; }
+    .reveal .slides section { padding: 0 1em; }
+
+    .reveal img {
+      max-height: 65vh;
+      box-shadow: none !important;
+      border: none !important;
+      background: none !important;
+      margin: 0.4em auto !important;
+      display: block;
+    }
+
+    .reveal ul { margin-left: 1em; }
+    .reveal li { margin-bottom: 0.4em; }
+
+    .dunes  { color: var(--dunes);  font-weight: 700; }
+    .palm   { color: var(--palm);   font-weight: 700; }
+    .accent { color: var(--accent); font-weight: 700; }
+    .muted  { color: var(--gray-dark); }
+
+    .kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.55em;
+      color: var(--gray);
+      font-weight: 600;
+      margin-bottom: 0.3em;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2em;
+      margin-top: 0.8em;
+    }
+    .col-card {
+      padding: 1em 1.2em;
+      border-top: 4px solid var(--gray);
+    }
+    .col-card.dunes-card { border-top-color: var(--dunes); }
+    .col-card.palm-card  { border-top-color: var(--palm); }
+    .col-card h3 { margin-top: 0; font-size: 1.1em; font-weight: 700; }
+    .col-card.dunes-card h3 { color: var(--dunes); }
+    .col-card.palm-card  h3 { color: var(--palm); }
+
+    .reveal section.title-slide { text-align: center; }
+    .reveal section.title-slide h1 { font-size: 2.4em; }
+    .reveal section.title-slide .kicker { text-align: center; }
+
+    .takeaway {
+      display: inline-block;
+      padding: 0.5em 1em;
+      background: #faf3ee;
+      border-left: 5px solid var(--accent);
+      margin-top: 0.5em;
+      font-size: 0.78em;
+    }
+
+    .timer-badge {
+      position: absolute;
+      top: 0.8em;
+      right: 1em;
+      font-size: 0.5em;
+      color: var(--gray);
+      letter-spacing: 0.08em;
+    }
+
+    .values-bar {
+      position: absolute;
+      bottom: 0.6em;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 0.42em;
+      color: var(--gray);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .values-bar span { margin: 0 0.6em; }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.8em;
+      margin-top: 0.8em;
+    }
+    .metric {
+      padding: 0.5em 0.7em;
+      background: #f7f5f1;
+      border-left: 3px solid var(--gray);
+    }
+    .metric .num { font-size: 1.1em; font-weight: 700; }
+    .metric .lbl { font-size: 0.55em; color: var(--gray-dark); }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 1. Title (~25s) -->
+      <section class="title-slide">
+        <div class="kicker">Clear City · Communications Director · Final Presentation</div>
+        <h1>Two Neighborhoods,<br><span class="dunes">Two</span> <span class="palm">Communications Strategies</span></h1>
+        <p class="muted" style="text-align:center; margin-top:0.8em; font-size:0.7em;">
+          A data-informed, equity-first approach for Clear City
+        </p>
+        <div class="values-bar">
+          <span>Clarity</span>·<span>Equity</span>·<span>Access for every resident</span>
+        </div>
+        <aside class="notes">
+          [00:00–00:25]
+          Good [morning / afternoon]. I'm [your name], applying for Communications Director.
+          Two weeks ago I gave you a three-minute draft of this talk. You gave me thoughtful
+          feedback. Today's seven-minute version is what I built from it — a fuller view
+          of the data, a more concrete strategy, and a clearer plan for how I'd measure
+          whether it's working.
+        </aside>
+      </section>
+
+      <!-- 2. Setup / context (~40s) -->
+      <section>
+        <div class="timer-badge">~ 0:25 – 1:05</div>
+        <div class="kicker">The brief, in one slide</div>
+        <h2>Two neighborhoods inside one city</h2>
+        <div class="two-col" style="margin-top:1.2em;">
+          <div class="col-card dunes-card">
+            <h3>The Dunes</h3>
+            <p class="muted" style="font-size:0.75em;">1,200 residents</p>
+            <p style="font-size:0.7em; margin-top:0.6em;">A working-class neighborhood with a young, multilingual population and significant health needs.</p>
+          </div>
+          <div class="col-card palm-card">
+            <h3>Palm Haven</h3>
+            <p class="muted" style="font-size:0.75em;">800 residents</p>
+            <p style="font-size:0.7em; margin-top:0.6em;">A mid-to-upper-income neighborhood with strong digital access and high civic engagement.</p>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:1em; font-size:0.7em;">
+          Same city. Same services on offer. Profoundly different starting points — and that means our communications cannot be one-size-fits-all.
+        </p>
+        <aside class="notes">
+          [00:25–01:05]
+          Two neighborhoods, both in Clear City. The Dunes — twelve hundred residents, working-class,
+          younger, more multilingual, with serious health needs. Palm Haven — eight hundred residents,
+          mid-to-upper income, digitally connected, civically engaged.
+          Same city, same services on offer. The data tells me they need profoundly different
+          communications. Let me show you why.
+        </aside>
+      </section>
+
+      <!-- 3. Lollipop B - introducing the metrics -->
+      <section>
+        <div class="timer-badge">~ 1:05 – 1:55</div>
+        <div class="kicker">Five things I looked at</div>
+        <h2>The metrics that matter for outreach</h2>
+        <img src="../charts/alternatives/B_lollipop.png"
+             alt="Side-by-side vertical sticks comparing The Dunes and Palm Haven across five metrics: elevated BMI, children under 18, Spanish-primary speakers, household income under $25K, and household income over $40K. The Dunes is taller on health and lower-income measures; Palm Haven is taller on the higher-income measure.">
+        <aside class="notes">
+          [01:05–01:55]
+          Five things I looked at — health, age, language, and the two ends of the income spectrum.
+          I picked these because each one changes how we should communicate.
+          Health drives what we lead with. Age affects how we talk to families. Language affects whether
+          we get through at all. And income shapes which channels reach people.
+          You can read each pair on its own here, but the more interesting view is what happens
+          when we put them in conversation.
+        </aside>
+      </section>
+
+      <!-- 4. Slope C - the gaps add up -->
+      <section>
+        <div class="timer-badge">~ 1:55 – 2:50</div>
+        <div class="kicker">The gaps tell a story</div>
+        <h2>Same data. Tilted view. Different revelation.</h2>
+        <img src="../charts/alternatives/C_slope_chart.png"
+             alt="A slope chart showing the same five metrics with one line per metric connecting The Dunes value on the left to the Palm Haven value on the right. Steeper lines indicate larger gaps. Health, age, language, and lower-income lines slope downward; the higher-income line slopes upward.">
+        <p class="takeaway">
+          Every metric diverges. The steepest line — the <span class="accent">36-point health gap</span> — is the one I cannot ignore.
+        </p>
+        <aside class="notes">
+          [01:55–02:50]
+          Now look at the same data tilted ninety degrees. Each line connects the same metric across
+          the two neighborhoods — left side is The Dunes, right side is Palm Haven.
+          The steeper the line, the bigger the gap. [pause]
+          Four of the five lines slope downward — The Dunes higher than Palm Haven on health risk,
+          children, Spanish at home, and lower income. One line goes the other way — higher income.
+          The steepest line — and the most consequential one — is the health gap.
+        </aside>
+      </section>
+
+      <!-- 5. Dot plot A - the headline focus -->
+      <section>
+        <div class="timer-badge">~ 2:50 – 3:50</div>
+        <div class="kicker">The headline</div>
+        <h2>A 36-point health gap</h2>
+        <img src="../charts/alternatives/A_dot_plot.png"
+             alt="Two dots on a horizontal line. The Dunes at 59 percent elevated BMI is on the right; Palm Haven at 23 percent is on the left. A bar between them is labeled '36-point gap'.">
+        <p class="takeaway">
+          In Palm Haven, this is one campaign a year. In The Dunes, it's the through-line of everything we publish.
+        </p>
+        <aside class="notes">
+          [02:50–03:50]
+          Fifty-nine percent of Dunes residents are at elevated weight risk. Twenty-three percent
+          in Palm Haven. A thirty-six-point gap. [long pause — three full seconds]
+          For context: a thirty-six-point gap is the difference between a public-health
+          emergency and a healthy community.
+          So if I'm running communications for both neighborhoods, what does this mean in practice?
+          In Palm Haven, health is one campaign a year — a winter wellness push, maybe.
+          In The Dunes, health is the through-line of everything we publish.
+          Every newsletter, every event, every billboard touches it somehow.
+        </aside>
+      </section>
+
+      <!-- 6. Diverging bars D - income at opposite ends -->
+      <section>
+        <div class="timer-badge">~ 3:50 – 4:45</div>
+        <div class="kicker">The channel question</div>
+        <h2>Why income demands different channels</h2>
+        <img src="../charts/alternatives/D_diverging_bars.png"
+             alt="Back-to-back horizontal bars. On the left, The Dunes income concentrates in the under-$25K bracket. On the right, Palm Haven income concentrates in the over-$40K bracket. The middle bracket is roughly even.">
+        <div class="metric-grid">
+          <div class="metric" style="border-left-color: var(--dunes);">
+            <div class="num dunes">69%</div>
+            <div class="lbl">of Dunes households earn under $25K</div>
+          </div>
+          <div class="metric" style="border-left-color: var(--palm);">
+            <div class="num palm">45%</div>
+            <div class="lbl">of Palm Haven households earn over $40K</div>
+          </div>
+          <div class="metric" style="border-left-color: var(--gray);">
+            <div class="num">2.5×</div>
+            <div class="lbl">more Spanish-primary speakers in The Dunes</div>
+          </div>
+        </div>
+        <aside class="notes">
+          [03:50–04:45]
+          Income flips the script. Sixty-nine percent of Dunes households earn under twenty-five
+          thousand a year. Forty-five percent of Palm Haven households earn over forty thousand.
+          That gap matters because it shapes which channels actually reach people. [pause]
+          Households in The Dunes are less likely to have unlimited data, a home computer,
+          or the time to read a long email at lunch. So print, text message, and in-person
+          aren't fallbacks — they're the front door.
+          Households in Palm Haven have all of those things. Email and self-serve portals
+          aren't shortcuts — they're respectful of how this community actually wants to engage.
+        </aside>
+      </section>
+
+      <!-- 7. Two strategies playbook -->
+      <section>
+        <div class="timer-badge">~ 4:45 – 6:00</div>
+        <div class="kicker">What I'd do about it</div>
+        <h2>Two neighborhoods. Two strategies.</h2>
+        <div class="two-col">
+          <div class="col-card dunes-card">
+            <h3>The Dunes</h3>
+            <ul style="font-size:0.72em;">
+              <li><strong>Spanish first</strong> — written natively, plain language, short sentences</li>
+              <li><strong>Lead with health</strong> — clinics, food access, family programs</li>
+              <li><strong>Trusted messengers</strong> — schools, faith leaders, community health workers</li>
+              <li><strong>Print, text, in-person</strong> — meet people on the channels they already use</li>
+              <li><strong>Multimodal</strong> — same message, three different formats</li>
+            </ul>
+          </div>
+          <div class="col-card palm-card">
+            <h3>Palm Haven</h3>
+            <ul style="font-size:0.72em;">
+              <li><strong>Digital-first</strong> — captioned video, screen-reader friendly</li>
+              <li><strong>Lead with civic engagement</strong> — volunteering, advocacy, town halls</li>
+              <li><strong>Self-serve resources</strong> — clear portals, on-demand video</li>
+              <li><strong>Monthly newsletter</strong> — opt-in, data-rich, transparent</li>
+              <li><strong>Two-way</strong> — comment forms, surveys, public meetings</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="notes">
+          [04:45–06:00]
+          So what does this mean for Clear City? Two strategies, not one.
+          For The Dunes — Spanish first, written natively, not translated as an afterthought.
+          Plain language at a sixth-grade reading level — not because residents can't read more,
+          but because civic information should never be a comprehension test.
+          Health is the through-line. The schools, the faith communities, and community health workers
+          carry the message — they're the trusted messengers, not us.
+          Print, text message, and in-person — meet people where they already are.
+          Same message, three formats — text it, print it, hand it out.
+          For Palm Haven — digital-first works. Captioned video, screen-reader friendly, keyboard accessible.
+          Lead with civic engagement. Self-serve, transparent, data-rich.
+          And two-way: comment forms, surveys, public meetings — they want to engage with us, not just receive us.
+        </aside>
+      </section>
+
+      <!-- 8. 90-day plan + how I measure -->
+      <section>
+        <div class="timer-badge">~ 6:00 – 7:00</div>
+        <div class="kicker">First 90 days &amp; how I'll measure</div>
+        <h2>Sequenced. Measurable. Honest.</h2>
+        <div class="two-col">
+          <div class="col-card" style="border-top-color: var(--gray-dark);">
+            <h3 style="color: var(--gray-dark);">First 90 days</h3>
+            <ul style="font-size:0.72em;">
+              <li><strong>Days 1–30 — Audit.</strong> Inventory every channel. Translate nothing yet.</li>
+              <li><strong>Days 31–60 — Build.</strong> Hire a Spanish-language editor; set up accessibility workflow.</li>
+              <li><strong>Days 61–90 — Re-mix.</strong> SMS pilot for The Dunes; clean email program for Palm Haven; sunset what isn't working.</li>
+            </ul>
+          </div>
+          <div class="col-card" style="border-top-color: var(--accent);">
+            <h3 style="color: var(--accent);">How I'll know it's working</h3>
+            <ul style="font-size:0.72em;">
+              <li><strong>Reach by neighborhood</strong>, never aggregate</li>
+              <li><strong>Outcome metrics</strong> — clinic visits, town halls, enrollments</li>
+              <li><strong>Accessibility scan</strong> on every published asset</li>
+              <li><strong>Trust surveys</strong> — short, before-and-after, every event</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="notes">
+          [06:00–07:00]
+          Sequenced. Measurable. Honest.
+          First thirty days — audit. I don't translate anything, change anything, or launch anything
+          until I understand what's already in market.
+          Next thirty — build the workflows. A Spanish-language editor. An accessibility checklist
+          on every asset before it ships.
+          Final thirty — re-mix the channels. SMS for The Dunes. A clean email program for Palm Haven.
+          Sunset what isn't working.
+          And here's how I'll know it's working — reach by neighborhood, never aggregate, because
+          aggregate dashboards hide the gap. Outcome metrics tied to program goals. An accessibility
+          scan on every published asset. And short trust surveys, before and after every event,
+          so we know if we're earning trust or just claiming it.
+        </aside>
+      </section>
+
+      <!-- 9. Close -->
+      <section class="title-slide">
+        <div class="kicker">Thank you</div>
+        <h1>I'd be honored<br>to do this work for Clear City.</h1>
+        <p class="muted" style="text-align:center; margin-top:0.8em; font-size:0.7em;">
+          Two neighborhoods. Two strategies. One goal — every resident reached.
+        </p>
+        <aside class="notes">
+          [07:00–07:15]
+          Thank you. I'd be honored to do this work for Clear City. I'm happy to take questions.
+        </aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'fade',
+      controls: true,
+      progress: true,
+      slideNumber: 'c/t',
+      width: 1280,
+      height: 800,
+      margin: 0.06,
+      plugins: [ RevealNotes ]
+    });
+  </script>
+</body>
+</html>
