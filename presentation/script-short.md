@@ -1,76 +1,64 @@
-# Speaker Script — Clear City · 3-Minute Cut
+# Speaker Script — Clear City Communications Director · 3-Minute Draft (Apr 30)
 
 **Total runtime: 3:00** · 4 slides · ~360 words at a measured pace
 
-This deck is built to do three jobs at once: tell a story with data, prove visualization skill, and demonstrate Clear City–ready presentation. Every line earns its keep.
+**Audience:** Clear City officials. They know the city. They are not communication-design specialists. So this script speaks plainly. No jargon, no name-dropping methodologies, no acronyms without a translation.
 
-Open `presentation/index-short.html`. Press `s` for presenter mode, `f` for fullscreen.
+**Frame:** A mock interview for the Communications Director role. You are applying. The deck is a sample of your work — and the way you deliver it is a sample too.
+
+Open `presentation/index-short.html` → press `s` for presenter mode → press `f` for fullscreen.
 
 ---
 
 ## Slide 1 — Title (0:00 – 0:25) · 25 seconds
 
-> Hi, I'm [your name]. [pause] In three minutes I'll show you how I'd lead Clear City's public-facing communications — by translating data into a story, and turning that story into an **equity-first strategy** for two very different neighborhoods.
+> Good [morning / afternoon]. I'm [your name], and I'm here to apply for **Communications Director**. [pause]
+>
+> In the next three minutes I'll do three things — show you a story I found in our city's data, tell you what I'd do about it, and let the work itself show you how I'd communicate for Clear City.
 
-**Coaching note:** "Equity-first" is the JD's language. Land it. The values bar at the bottom of every slide silently echoes it the whole talk.
+**Coaching note:** Don't open with thanks. Open with your name and the role. The values bar at the bottom of every slide — *Clarity · Equity · Access for every resident* — is your through-line. You don't need to say it; the audience reads it for free.
 
 ---
 
-## Slide 2 — Five gaps, one picture (0:25 – 1:40) · 75 seconds
+## Slide 2 — Two neighborhoods, one picture (0:25 – 1:40) · 75 seconds
 
-> Five metrics, both neighborhoods, one image. The steeper the line, the bigger the gap. [pause]
+> One chart, two neighborhoods, five facts. The steeper the line, the bigger the gap. [pause]
 >
-> The headline: **fifty-nine percent** of Dunes residents have elevated BMI versus **twenty-three percent** in Palm Haven. A **thirty-six-point gap**. [long pause]
+> The headline: **fifty-nine percent** of Dunes residents are at elevated weight risk — versus **twenty-three percent** in Palm Haven. A **thirty-six-point gap**. [long pause — three full seconds]
 >
-> Sixty-nine percent of Dunes residents earn under twenty-five thousand a year. Forty-five percent of Palm Haven earns over forty thousand. **Income at opposite ends.** [pause]
+> Sixty-nine percent of Dunes households earn under twenty-five thousand a year. Forty-five percent of Palm Haven households earn over forty thousand. **Incomes at opposite ends.** [pause]
 >
-> The Dunes also skews younger, and is two-and-a-half times more likely to use Spanish at home. [pause]
+> The Dunes also has more children — about one in three residents is under eighteen — and is two-and-a-half times more likely to use Spanish at home. [pause]
 >
-> A note on the chart itself — slope over pie, honest axes, WCAG-AA color contrast, alt text for screen readers. **Ethical visualization isn't a finishing touch; it's the brief.**
+> **Same city. Same services on offer. Profoundly different starting points.**
 
-**Coaching note:** That last line is the *meta-move*. You're not just analyzing data — you're showing the panel you know what ethical, accessible viz means in practice. It is worth the 5 seconds it costs.
+**Coaching note:** This is your data slide. **Numbers slow, conclusions fast.** If you only do one thing on stage, do this: hold the silence after "thirty-six-point gap" for three full seconds. Most candidates fill that silence; the ones who don't are the ones who get hired. Trust the data to do the talking.
 
-The "long pause" after the 36-point gap is your most important silence — give it three full seconds.
+Notice the script doesn't say "slope chart" or "data visualization principles." Don't name the methodology — *show* it. The chart speaks for itself; you don't have to translate it.
 
 ---
 
-## Slide 3 — Two playbooks (1:40 – 2:50) · 70 seconds
+## Slide 3 — What I'd do about it (1:40 – 2:50) · 70 seconds
 
-> So what does this mean for Clear City? **Two playbooks, not one.** [pause]
+> So what does this mean for Clear City? **Two strategies, not one.** [pause]
 >
-> The Dunes — Spanish-**first** content. Written natively, not translated as an afterthought. **Plain language at a sixth-grade reading level** — not because residents can't read more, but because civic information should never be a comprehension test. Health is the through-line. **Trusted messengers** — schools, faith leaders, *promotoras de salud* — carry the message. Print, SMS, and in-person, not email-first. [pause]
+> For The Dunes — **Spanish first**. Written in Spanish from day one, not translated at the end. Plain language — short sentences, everyday words. Not because residents can't read more, but because **civic information should never be a test.** Health is the through-line. The schools, the faith communities, and community health workers carry the message — they're the trusted messengers, not us. Print, text message, and in-person. Not email-first. [pause]
 >
-> Palm Haven — **WCAG-AA digital across the board**. Captions, alt text, keyboard navigation by default. Lead with civic engagement. Self-serve, transparent, data-rich. [pause]
+> For Palm Haven — **digital-first** works. Captioned video, screen-reader friendly, keyboard-accessible — so a resident with low vision gets the same information as everyone else. Lead with civic engagement. Self-serve, transparent, data-rich. [pause]
 >
-> The first ninety days I audit, build the bilingual and accessibility workflow, and re-mix the channels. **Every Clear City resident reached on the right channel, in the right language, at the right reading level.**
+> In my first ninety days I'd audit what we already publish, build the Spanish-language and accessibility workflow, and re-mix the channels. **The goal — every Clear City resident reached on a channel they use, in a language they speak, at a reading level they understand.**
 
-**Coaching note:** This slide carries the JD keywords: *equity, accessibility, WCAG, plain language, culturally responsive, diverse audiences*. They land naturally because the strategy genuinely needs them — not because we're keyword-stuffing.
+**Coaching note:** This is the slide that earns the role. The closing line is your thesis — memorize it. Land "channel they use, language they speak, reading level they understand" cleanly. That sentence is the whole job in twenty words.
 
-The closing line is the thesis. Memorize it.
+Notice we say "screen-reader friendly" instead of "WCAG-AA compliant." Same idea. One of those phrases means something to a city official; the other doesn't. Always pick the one that lands.
 
 ---
 
 ## Slide 4 — Close (2:50 – 3:00) · 10 seconds
 
-> Thank you. [pause] Happy to take questions.
+> Thank you. **I'd be honored to do this work for Clear City.** [pause] I'm happy to take any questions.
 
-**Coaching note:** Don't apologize, don't recap, don't add a "so in conclusion." The values bar on screen ("Equity-first · Data-informed · Accessible by design") is your closing argument. Let it do the work.
-
----
-
-## What this presentation itself demonstrates (for your own confidence)
-
-You don't say this out loud. But know it as you stand up there.
-
-| JD requirement | How this 3-minute deck proves it |
-|---|---|
-| Translate complex data into clear narratives | Five metrics → one slope chart → one headline |
-| Storytelling with data, narrative + emotional resonance | The 36-point gap framed as a public-health emergency |
-| Visualizations, infographics, accessible language | Knaflic principles: declutter, focus, direct labels, no pie charts |
-| WCAG accessibility | Color-contrast palette, alt text on charts, plain-language script |
-| Ethical representation of data | No truncated axes, no chart-junk, sources cited in long version |
-| Tailored to diverse audiences | The whole point of the talk |
-| Public speaking | Three minutes, no hedge words, clean close |
+**Coaching note:** Don't apologize. Don't recap. Don't add a "so in conclusion." Stop on the honest line and let it sit.
 
 ---
 
@@ -78,37 +66,75 @@ You don't say this out loud. But know it as you stand up there.
 
 | Slide | Content | Time | Cumulative |
 |---|---|---|---|
-| 1 | Title + thesis (Clear City) | 0:25 | 0:25 |
-| 2 | Slope chart + ethical-viz aside | 1:15 | 1:40 |
-| 3 | Two playbooks + 90-day plan | 1:10 | 2:50 |
+| 1 | Title + the three things you'll do | 0:25 | 0:25 |
+| 2 | One chart, five facts, one headline | 1:15 | 1:40 |
+| 3 | Two strategies + 90-day plan | 1:10 | 2:50 |
 | 4 | Close | 0:10 | 3:00 |
 
-If running long: cut "two-and-a-half times more likely to use Spanish at home" on slide 2 (saves ~7 seconds — the language point still lands on slide 3).
+**If running long in rehearsal:** drop the line *"two-and-a-half times more likely to use Spanish at home"* on slide 2. Saves ~7 seconds. The language point still lands on slide 3.
+
+---
+
+## How this draft maps to the rubric (10 pts)
+
+| Rubric criterion | How this draft earns it |
+|---|---|
+| **Scenario completion (3 pts)** — alignment + timely link | Submit the recorded link before the Apr 30 session. See the recording checklist below. |
+| **Presentation content (3.5 pts)** — clear structure, compelling messaging, thoughtful integration of data visuals | Title sets up three deliverables. Slide 2 = one chart, one headline. Slide 3 = strategy directly tied to the data. Close is one sentence. The chart isn't decoration — every claim on slide 3 is a direct response to a number on slide 2. |
+| **Visual design (3.5 pts)** — quality, clarity, relevance to audience | Plain-language labels (no jargon). One color per neighborhood, used consistently. The chart shows the whole story at a glance — perfect for officials who don't have time to study it. Generous white space. The values bar quietly reinforces *Clarity · Equity · Access* on every slide. |
 
 ---
 
 ## Anticipated Q&A — short answers
 
 **"How would you partner with our other departments?"**
-The audit comes first. Public Health, Parks & Rec, Library, Schools — each has a lens on these residents I don't yet have. My month one is listening to them, not pitching to them. The communications strategy is a layer *on top of* their work, not a layer in front of it.
+The audit comes first. Public Health, Parks & Rec, Library, Schools — each already knows these residents in ways I don't. Month one is listening to them, not pitching to them. Communications sits on top of their work, not in front of it.
 
 **"How would you measure success?"**
-Reach by neighborhood, not aggregate. Engagement by channel. Outcome metrics tied to the program goals — clinic visits, town hall attendance, program enrollments. Aggregate dashboards hide the gap; segmented dashboards make sure we keep closing it. And accessibility metrics — every published asset gets an automated WCAG-AA scan before it ships.
-
-**"How do you build trust in a community that's been overlooked?"**
-Show up before you ask. Spanish-first, not Spanish-translated. And measure trust — pre-and-post surveys at every event — so we know if we're earning it or just claiming it.
+Reach by neighborhood, not aggregate. Aggregate dashboards hide the gap; segmented dashboards make sure we keep closing it. Engagement by channel. And outcome metrics tied to program goals — clinic visits, town hall attendance, program enrollments.
 
 **"What would you ship first?"**
-A bilingual SMS pilot in The Dunes. Ninety-eight percent open rate, no data plan required, and a pilot proves the bilingual workflow before we scale it citywide. Cheap, fast, measurable.
+A bilingual text-message pilot in The Dunes. Texts get a 98% open rate, don't require a data plan, and a small pilot proves out the bilingual workflow before we scale it everywhere. Cheap, fast, measurable.
+
+**"How do you build trust in a community that has been overlooked?"**
+Show up before you ask. Spanish-first, not Spanish-translated. Measure trust — short before-and-after surveys at every event — so we know if we're earning it or just claiming it.
+
+**"What if the budget is tight?"**
+The ninety-day plan is mostly a re-allocation, not a net add. The audit shows what's not working — that's the budget for what is. Texts are cheap. A part-time Spanish-language editor goes a long way.
 
 ---
 
-## Recording checklist
+## Recording checklist (Apr 30 submission)
 
-- [ ] Open `presentation/index-short.html`
-- [ ] Press `s` — presenter mode launches in second window
-- [ ] Press `f` on the main window — fullscreen
-- [ ] Microphone test — record 30 seconds, listen back
-- [ ] Practice run with a stopwatch, no recording — aim for **2:50**, not 3:00
+**Tools that work:** Zoom, Microsoft Teams, Google Meet, Loom, QuickTime — any of them. Pick what's easiest.
+
+- [ ] Open `presentation/index-short.html` in your browser
+- [ ] Press `s` for presenter mode (speaker notes appear in a second window)
+- [ ] Press `f` on the main window for fullscreen
+- [ ] Test microphone — record 30 seconds, listen back. Phone on silent.
+- [ ] Practice run with a stopwatch, **no recording** — aim for **2:50**, not 3:00 (nerves add 10 seconds in the moment)
 - [ ] Real take — single shot, no edits, full energy
-- [ ] Watch yourself back at least once before submitting
+- [ ] Watch the recording back at least once before submitting
+- [ ] Upload to YouTube as **Unlisted**, or to Google Drive / Dropbox / OneDrive with sharing set to "anyone with the link"
+- [ ] **Test the link in an incognito browser** — make sure a stranger can open it without signing in
+- [ ] Submit the link to Canvas
+
+**Background tips for the camera:**
+- Frame: head and upper chest in shot, eyes on the top third of the frame
+- Lighting: face the brightest light source in the room (a window works); never sit with a window behind you
+- Audio matters more than video — a $20 USB mic outperforms a $2,000 camera for this
+
+---
+
+## What this presentation itself proves (you don't say this out loud)
+
+| The role asks for… | This 3-minute draft demonstrates… |
+|---|---|
+| Storytelling with data | One chart, one headline, a clear "so what" |
+| Visualizations that inform varied audiences | The chart works whether you have ten seconds or three minutes |
+| Accessibility | Plain language script, alt text on the chart, color contrast that works for color-blind viewers |
+| Ethical representation of data | Honest axes, no truncation, no misleading scaling, no chart-junk |
+| Tailored to the audience | We're using "screen-reader friendly" instead of "WCAG-AA" because city officials aren't designers |
+| Public speaking | A 3-minute draft, no hedge words, a clean close |
+
+You don't say any of this. You **show** it. Then you walk off.
