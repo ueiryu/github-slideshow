@@ -2,3 +2,9 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .bundle
+
+# Ignore newly-installed npm packages. The pre-existing
+# node_modules/reveal.js/ tree stays tracked because it's already in
+# the index; this rule only suppresses anything new (pa11y, axe-core,
+# puppeteer, etc. pulled in by accessibility tooling).
+node_modules/
